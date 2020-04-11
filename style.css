@@ -103,6 +103,8 @@ video{
   flex-direction:row;
   grid-row: 1/2;
   grid-column:2/3;
+  width: 100%;
+  margin: 0 auto;
  }
  .player-container{
   grid-row: 2/3;
@@ -116,6 +118,7 @@ video{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 15px;
  }
  .time-select button:hover{
   color:black;
@@ -125,9 +128,22 @@ video{
  .player-container svg{
   height:150%;  
  }
+
+ .player-container .play{
+  height:30%;  
+ }
  
- .player-container h3 {
-  transform: translateY(50%);
+ .player-container .time-display {
+  transform: translateY(70%);
+  font-size:30px;
+ }
+
+ .sound-picker button{
+  border:none;
+  height:80px;
+  width:80px;
+  border-radius: 50%;
+  padding:20px;
  }
 
  .sound-picker button:hover {
