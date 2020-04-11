@@ -24,7 +24,6 @@ const app = () => {
     //Pick different sound
     sounds.forEach(sound => {
      sound.addEventListener('click', function(){
-      event.preventDefault();
       song.src = this.getAttribute('data-sound');
       video.src = this.getAttribute('data-video');
       checkPlaying(song);
