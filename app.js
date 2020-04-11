@@ -1,5 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-
   const app = () => {
       const song = document.querySelector('.song');
       const play = document.querySelector('.play');
@@ -83,4 +81,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
   }
 
   app();
- });
+ 
