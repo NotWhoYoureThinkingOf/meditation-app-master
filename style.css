@@ -124,6 +124,7 @@ video{
  .time-select button{
   font-size:15px;
   height:50px;
+  width:95px;
  }
  .time-select button:hover{
   color:black;
