@@ -121,6 +121,7 @@ video{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+  grid-gap:35px;
  }
  .time-select button{
   font-size:15px;
